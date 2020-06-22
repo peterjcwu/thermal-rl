@@ -1,2 +1,13 @@
 # thermal-rl
-RC thermal model fitting  and control parameters optimization with reinforcement learning
+
+## RC model fitting
+
+For the measured time-temperature plot, fitting the socket 
+thermal model, which will be used in the thermal environment
+simulation
+
+
+## Reinforcement learning
+
+Once we build an environment, we could optimize the control model
+to minimize the error 
