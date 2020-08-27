@@ -18,9 +18,16 @@ import { MatToolbarModule,
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HomeComponent } from './home/home.component';
+import { SearchComponent } from './search/search.component';
+import { DetailsComponent } from './details/details.component';
+
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    SearchComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
